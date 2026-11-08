@@ -1,6 +1,6 @@
 **/dashboard/config/firebase_Config.js
-**/config/firebase_Config.js
-**/firebaseConfig.js
-**/firebase_Config.js
+# **/config/firebase_Config.js
+# **/firebaseConfig.js
+# **/firebase_Config.js
 .env
 .env.local
