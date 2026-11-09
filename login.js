@@ -11,21 +11,21 @@ const login = document.getElementById("login")
 const email = document.getElementById("email")
 const password = document.getElementById("password")
 
-const googleLogin = document.getElementById("googlelogin")
+// const googleLogin = document.getElementById("googlelogin")
 
-googleLogin.addEventListener("click",async function(){
-    const provider = new GoogleAuthProvider();
-    await signInWithPopup (auth,provider)
+// googleLogin.addEventListener("click",async function(){
+//     const provider = new GoogleAuthProvider();
+//     await signInWithPopup (auth,provider)
 
-    .then((user)=>{
-        console.log(user)
-    })
+//     .then((user)=>{
+//         console.log(user)
+//     })
 
-    .catch((e)=>{
-        console.log(e)
-    })
+//     .catch((e)=>{
+//         console.log(e)
+//     })
 
-})
+// })
 
 login.addEventListener("click", async function() {
     await signInWithEmailAndPassword(auth,email.value,password.value)
