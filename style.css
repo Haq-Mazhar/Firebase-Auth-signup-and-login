@@ -82,7 +82,7 @@ input:focus {
     background-color: #243447;
 }
 
-#googlelogin {
+/* #googlelogin {
     width: 100%;
     padding: 14px;
     background-color: #ffffff;
@@ -99,7 +99,7 @@ input:focus {
 #googlelogin:hover {
     background-color: #f6f8fa;
 }
- 
+  */
 p {
     font-size: 14px;
     color: #57606a;
